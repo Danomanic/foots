@@ -1,0 +1,29 @@
+{
+  "name": "foots",
+  "version": "1.0.0",
+  "description": "foots.io - the running shoe comparison website",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danomanic/foots.git"
+  },
+  "keywords": [
+    "running",
+    "shoe"
+  ],
+  "author": "Daniel J. Pomfret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danomanic/foots/issues"
+  },
+  "homepage": "https://github.com/Danomanic/foots#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "tailwindcss": "^3.3.2"
+  }
+}
