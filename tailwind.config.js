@@ -24,8 +24,8 @@ module.exports = {
           accent: "#f58a07",
           neutral: "#193339",
           "base-100": "#ffffff",
-          "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
-          "--rounded-btn": "1rem", // border radius rounded-btn utility class, used in buttons and similar element
+          "--rounded-box": "0rem", // border radius rounded-box utility class, used in card and other large boxes
+          "--rounded-btn": "0rem", // border radius rounded-btn utility class, used in buttons and similar element
           "--rounded-badge": "1.9rem", // border radius rounded-badge utility class, used in badges and similar
           "--animation-btn": "0.25s", // duration of animation when you click on button
           "--animation-input": "0.2s", // duration of animation for inputs like checkbox, toggle, radio, etc

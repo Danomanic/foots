@@ -34,12 +34,83 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="shoes mt-4">
-        <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="shoes mt-4 grid md:grid-cols-4 gap-4">
+        <div className="card bg-base-100 shadow-xl mt-4">
           <figure>
             <Image
               src="/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              width={400}
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            /></figure>
+          <div className="card-body">
+
+            <div className="rating rating-xs">
+              <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h2 className="card-title">
+              Nike Green 12
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>From: £100</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Track</div>
+              <div className="badge badge-outline">Race</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 shadow-xl mt-4">
+          <figure>
+            <Image
+              src="/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Nike Green 12
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>From: £100</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Track</div>
+              <div className="badge badge-outline">Race</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 shadow-xl mt-4">
+          <figure>
+            <Image
+              src="/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              width={300}
+              height={100}
+              alt="Picture of the author"
+            /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Nike Green 12
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>From: £100</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Track</div>
+              <div className="badge badge-outline">Race</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 shadow-xl mt-4">
+          <figure>
+            <Image
+              src="/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              width={300}
               height={100}
               alt="Picture of the author"
             /></figure>
